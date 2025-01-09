@@ -1,0 +1,273 @@
+{
+    "soporte": [
+      {
+        "id": 1,
+        "name": "Jhonatan Ruiz",
+        "level": "JUNIOR",
+        "role": "Dev",
+        "sprintCapacity": 8,
+        "color": "bg-green-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/ebd718cc-78f2-45e4-8dce-3a31f17635ac.png"
+      },
+      {
+        "id": 2,
+        "name": "Jhonatan Realpe",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/c40dae8f-5221-4f18-86fe-084394fdc2a1.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Diana Paola Serrano",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/e7493ab7-ce9e-43bb-b094-c7e1635b11fb.png"
+      },
+      {
+        "id": 5,
+        "name": "Samy Medina",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 8,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/0aaa13a8-fd51-47fd-ae18-8594ad9e500a.png"
+      },
+      {
+        "id": 4,
+        "name": "Ana Victoria Ospina",
+        "level": "MID",
+        "role": "QA",
+        "sprintCapacity": 0,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/64d7e90f-7d2b-40ed-b09c-da451a71627d.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Luis Angulo",
+        "level": "MID",
+        "role": "QA",
+        "sprintCapacity": 0,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/a45111ec-f2be-4f37-9552-682854f4dbc9.jpeg"
+      }
+    ],
+    "facturacion": [
+      {
+        "id": 1,
+        "name": "Samy Medina",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 8,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/0aaa13a8-fd51-47fd-ae18-8594ad9e500a.png"
+      },
+      {
+        "id": 2,
+        "name": "Anyela Martinez",
+        "level": "JUNIOR",
+        "role": "Dev",
+        "sprintCapacity": 15,
+        "color": "bg-green-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/0ed7bafd-dff8-433f-bb3a-398badb4fe51.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Julian Duque",
+        "level": "JUNIOR",
+        "role": "Data",
+        "sprintCapacity": 15,
+        "color": "bg-green-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/088fa2b1-f210-44d3-a0f9-8de762e32ad6.png"
+      },
+      {
+        "id": 4,
+        "name": "Jose Manolo Pinzon",
+        "level": "MID",
+        "role": "Data",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/b5c85f1d-599c-44a6-8f3b-f68bcdd973f4.jpeg"
+      }
+    ],
+    "datos": [
+      {
+        "id": 10,
+        "name": "José Herrera",
+        "level": "SENIOR",
+        "role": "Data",
+        "sprintCapacity": 18,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/d1bdf695-0823-416a-808a-5231d8038b1f.jpeg"
+      },
+      {
+        "id": 11,
+        "name": "Juan Camilo Alvarez",
+        "level": "MID",
+        "role": "Data",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/147113a3-36bc-493d-ae8b-848ab1b36c0b.jpeg"
+      },
+      {
+        "id": 14,
+        "name": "Cesar Navarro",
+        "level": "MID",
+        "role": "Data",
+        "sprintCapacity": 8,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/7166b393-63b6-4bff-b06e-ae9c0db1ce43.jpeg"
+      },
+      {
+        "id": 15,
+        "name": "Javier Barragan",
+        "level": "JUNIOR",
+        "role": "Data",
+        "sprintCapacity": 8,
+        "color": "bg-green-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/e078ddfb-8428-4a2a-a18b-8644183f86cb.jpeg"
+      },
+      {
+        "id": 17,
+        "name": "Benjamin de la Torre",
+        "level": "MID",
+        "role": "Data",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/9273f6ae-f06e-4e7c-9aae-7e1815a7c1fb.jpeg"
+      },
+      {
+        "id": 12,
+        "name": "Sebastián Granda",
+        "level": "MID",
+        "role": "Arquitectura",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/fdafc9d8-a5e5-4284-83cc-93b1487a766a.jpeg"
+      },
+      {
+        "id": 13,
+        "name": "Said Salazar",
+        "level": "SENIOR",
+        "role": "Data",
+        "sprintCapacity": 10,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/96af562c-998c-4743-96cd-a06aae89043e.jpeg"
+      },
+      {
+        "id": 16,
+        "name": "George Quintero",
+        "level": "MID",
+        "role": "QA",
+        "sprintCapacity": 0,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/114b4d4d-62ff-4df1-aba2-a6fb355ef65a.jpeg"
+      }
+    ],
+    "portales": [
+      {
+        "id": 18,
+        "name": "Brahian Hurtado",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/a95073ca-d30c-4255-ad78-bb2cd8b26440.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Esteban Ladino",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/c9f95b7f-624c-4e8e-993b-5dd61eff7ee2.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Juan Cochero",
+        "level": "JUNIOR",
+        "role": "Dev",
+        "sprintCapacity": 8,
+        "color": "bg-green-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/9240738c-1729-4cd8-8893-9dd9d62b4dfc.png"
+      },
+      {
+        "id": 21,
+        "name": "Hernan Gutierrez",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/7f23b5f6-7b98-48ba-9ee0-d2fda286fd7f.jpeg"
+      },
+      {
+        "id": 22,
+        "name": "Diana Plata",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/1db1a7cf-e875-43d1-a956-576b6882e72c.jpeg"
+      },
+      {
+        "id": 23,
+        "name": "Stiward Carrillo",
+        "level": "MID",
+        "role": "Dev",
+        "sprintCapacity": 15,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/f3ee2e7d-7119-42fd-bdc3-7d90cefd1471.png"
+      },
+      {
+        "id": 24,
+        "name": "Gustavo Espinosa",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/99032222-2d94-4f98-a127-f6278347dc20.jpeg"
+      },
+      {
+        "id": 25,
+        "name": "Arnulfo Torres",
+        "level": "MID",
+        "role": "QA",
+        "sprintCapacity": 0,
+        "color": "bg-blue-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/55220ff3-9c29-4abb-939f-e2563ef5da31.jpeg"
+      },
+      {
+        "id": 26,
+        "name": "Marisleidy Mora",
+        "level": "SENIOR",
+        "role": "QA",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/f8b040f7-6bbc-4910-a525-93ce0d51f92c.png"
+      }
+    ],
+    "entidad": [
+      {
+        "id": 27,
+        "name": "Erikson Sanchez",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/35838eab-d2fc-4f56-b22a-d38f95328739.jpeg"
+      },
+      {
+        "id": 28,
+        "name": "Jhon Fredy Quimbaya",
+        "level": "SENIOR",
+        "role": "Dev",
+        "sprintCapacity": 20,
+        "color": "bg-purple-100",
+        "photo": "https://img.genially.com/610b162342cf8f0011ea3d18/ebfd8fbd-2821-4717-a3af-feb5ac705e08.jpeg"
+      }
+    ]
+  }
