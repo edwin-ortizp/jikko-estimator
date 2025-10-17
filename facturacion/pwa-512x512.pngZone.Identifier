@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=devtools://devtools/bundled/devtools_app.html?remoteBase=https://msedgedevtools.microsoft.com/serve_file/@5f3674d4b466eb56cded876cb1ccf588a2718589/&targetType=tab&can_dock=true&panel=elements&firstLaunch=true&isFeedbackEnabled=true&msEdgeDevToolsMicroFeedback=true&isInContainerHost=true&isChatEnabled=true&msEdgeCSSCopilot=true&enabledExperiments=msEdgeDevToolsNetworkConsole;layersIn3DView;keyboardShortcutEditor;msEdgeVSCodeThemes;msEdgeDevToolsDetachedElements;msEdgeDynamicWelcome;msEdgeAIExplainConsoleError;msEdgeCSSCopilot
+HostUrl=about:internet

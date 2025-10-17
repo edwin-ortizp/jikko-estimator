@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/jikko-estimator/facturacion/sw.js', { scope: '/jikko-estimator/facturacion/' })})}
