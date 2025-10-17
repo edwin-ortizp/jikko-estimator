@@ -11,9 +11,21 @@
       (function() {
         var redirect = sessionStorage.getItem('redirect');
         sessionStorage.removeItem('redirect');
-        if (redirect && redirect !== '/') {
-          // Esperar a que React Router esté listo y luego navegar
-          history.replaceState(null, '', redirect);
+
+        // Debug info
+        console.log('Index redirect:', redirect);
+
+        if (redirect && redirect !== '/' && redirect !== '') {
+          // Construir la URL completa con el basename
+          var basename = '/jikko-estimator/facturacion';
+          var fullPath = basename + redirect;
+
+          console.log('Restoring path:', fullPath);
+
+          // Restaurar la ruta completa
+          // Esto se ejecuta ANTES de que React se monte, así React Router
+          // lee la ruta correcta desde el inicio
+          history.replaceState(null, '', fullPath);
         }
       })();
     </script>
