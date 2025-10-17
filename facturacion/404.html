@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Facturación - Jikkosoft</title>
+  <script>
+    /**
+     * GitHub Pages SPA Redirect Fix
+     *
+     * Cuando GitHub Pages recibe una petición a una ruta que no existe como archivo físico
+     * (ej: /jikko-estimator/facturacion/2025/Alcaldía%20de%20Palmira),
+     * retorna este archivo 404.html.
+     *
+     * Este script captura la URL solicitada y la guarda en sessionStorage,
+     * luego redirige al index.html que manejará la ruta con React Router.
+     */
+    (function() {
+      var pathSegmentsToKeep = 2; // Para /jikko-estimator/facturacion/
+
+      var l = window.location;
+
+      // Guardar el path completo después del basename
+      var path = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/';
+      var redirect = l.pathname.slice(path.length - 1);
+
+      // Guardar en sessionStorage para que index.html lo recupere
+      sessionStorage.setItem('redirect', redirect + l.search + l.hash);
+
+      // Redirigir al index.html
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        path +
+        '?redirect=' + encodeURIComponent(redirect + l.search + l.hash)
+      );
+    })();
+  </script>
+</head>
+<body>
+  <!-- Pantalla de carga mientras redirige -->
+  <div style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f9fafb;
+  ">
+    <div style="text-align: center;">
+      <div style="
+        width: 48px;
+        height: 48px;
+        border: 4px solid #e5e7eb;
+        border-top-color: #2563eb;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 16px;
+      "></div>
+      <p style="color: #6b7280; margin: 0;">Cargando...</p>
+    </div>
+  </div>
+  <style>
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</body>
+</html>

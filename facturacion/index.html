@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facturación - Jikkosoft</title>
 
+    <!-- GitHub Pages SPA Redirect Handler -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        sessionStorage.removeItem('redirect');
+        if (redirect && redirect !== '/') {
+          // Esperar a que React Router esté listo y luego navegar
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
+
     <!-- PWA Meta Tags -->
     <meta name="theme-color" content="#1e40af" />
     <meta name="description" content="Sistema de gestión de facturación para empresas de energía colombianas" />
@@ -16,8 +28,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Facturación - Jikkosoft" />
-    <script type="module" crossorigin src="/jikko-estimator/facturacion/assets/index-C6lVmBVI.js"></script>
-    <link rel="stylesheet" crossorigin href="/jikko-estimator/facturacion/assets/index-EcUbLCoX.css">
+    <script type="module" crossorigin src="/jikko-estimator/facturacion/assets/index-tthFQbyE.js"></script>
+    <link rel="stylesheet" crossorigin href="/jikko-estimator/facturacion/assets/index-D0kAM2XI.css">
   <link rel="manifest" href="/jikko-estimator/facturacion/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/jikko-estimator/facturacion/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
